@@ -1,0 +1,66 @@
+.blok {
+    width: 443px;
+    height: 243px;
+    border-radius: 32px;
+    background: #1E1E1E;
+    overflow: hidden;
+    display: grid;
+    justify-items: end;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+
+}
+
+.akchiyi {
+    position: relative;
+    right: 24px;
+    top: 24px;
+    border-radius: 40px;
+    background: #FF001D;
+    display: inline-flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 10px;
+
+}
+
+.akchiyi p {
+    color: var(--primary-white, #FFF);
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+
+.blok h3 {
+    text-align: left;
+    color: var(--primary-white, #FFF);
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+
+.chena {
+    text-align: left;
+    position: relative;
+    left: -60px;
+    bottom: -60px;
+    
+}
+
+
+
+
+.blok  img {
+    position: relative;
+    bottom: 64px;
+}
+

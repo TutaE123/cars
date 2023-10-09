@@ -1,0 +1,64 @@
+h1 {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    text-align: left;
+}
+
+.Content {
+    margin: 0 80px 0 80px;
+    height: 60vh;
+    display: flex;
+    justify-content: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.zapis {
+    display: flex;
+    height: 61px;
+    padding: 24px 40px 24px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 16px;
+    background: #FF001D;
+    border: none;
+    margin-right: 16px;
+}
+
+.zapis p {
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+}
+
+
+.butons {
+    display: flex;
+}
+.konsult {
+    display: flex;
+    height: 61px;
+    padding: 24px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.20);
+    background-color: transparent;
+
+}
+
+.konsult p {
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+}

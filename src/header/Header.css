@@ -1,0 +1,16 @@
+header {
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 32px;
+}
+.img {
+    width: 100%;
+    height: calc(100vh - 80px);
+    min-height: 550px;
+    background-image: url('../assets/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
